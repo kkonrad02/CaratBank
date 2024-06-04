@@ -15,3 +15,4 @@
 </ol>
 <p>W celu włączenia serwera lokalnie wymagane jest ponowne zainstalowanie bibliotek w głównym folderze serwera. Wykonamy to z komendą:</p>
 <pre>npm i apn crypto dotenv nodemon express express-session express-handlebars</pre>
+<p>Oraz trzeba wprowadzić adres IP maszyny na którym jest uruchamiany serwer lokalnie w pliku aplikacji <pre>Components/Authenticator.swift/ipAddress</pre></p>
