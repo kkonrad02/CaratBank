@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A81413E62B33311A00E2C776 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81413E52B33311A00E2C776 /* PaymentView.swift */; };
+		A8239D702B33960600AB6035 /* TransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8239D6F2B33960600AB6035 /* TransferView.swift */; };
+		A825D2DD2B319A070095320C /* CaratBankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A825D2DC2B319A070095320C /* CaratBankApp.swift */; };
+		A825D2DF2B319A070095320C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A825D2DE2B319A070095320C /* ContentView.swift */; };
+		A825D2E12B319A080095320C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A825D2E02B319A080095320C /* Assets.xcassets */; };
+		A825D2E42B319A080095320C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A825D2E32B319A080095320C /* Preview Assets.xcassets */; };
+		A825D2EE2B319A4B0095320C /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A825D2ED2B319A4B0095320C /* AuthView.swift */; };
+		A825D2F12B319EBD0095320C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A825D2F02B319EBD0095320C /* AppDelegate.swift */; };
+		A825D2F42B31A2350095320C /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A825D2F32B31A2350095320C /* Authenticator.swift */; };
+		A825D2F62B31CD830095320C /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A825D2F52B31CD830095320C /* SignInView.swift */; };
+		A825D2F92B31CE7B0095320C /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A825D2F82B31CE7B0095320C /* LoadingView.swift */; };
+		A825D2FB2B31CF870095320C /* AuthExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A825D2FA2B31CF870095320C /* AuthExtensions.swift */; };
+		A83EB0242B3364A4003C80EE /* WithdrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83EB0232B3364A4003C80EE /* WithdrawView.swift */; };
+		A83EB0272B33672C003C80EE /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83EB0262B33672C003C80EE /* HistoryView.swift */; };
+		A83EB0292B336E51003C80EE /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83EB0282B336E51003C80EE /* HistoryModel.swift */; };
+		A8455E9F2B35D0B600DD7F5E /* StatusPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8455E9E2B35D0B600DD7F5E /* StatusPreview.swift */; };
+		A8664EF92B343B0F00D86C2F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8664EF82B343B0F00D86C2F /* ProfileView.swift */; };
+		A88750FA2B34511600B500A8 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88750F92B34511600B500A8 /* StatusView.swift */; };
+		A89BC7542B31D7E5004588B3 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89BC7532B31D7E5004588B3 /* SignUpView.swift */; };
+		A89BC7572B31E388004588B3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89BC7562B31E388004588B3 /* MainView.swift */; };
+		A89BC75A2B31EC46004588B3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A89BC7592B31EC46004588B3 /* Launch Screen.storyboard */; };
+		A8BDAB5D2B37216000D320A7 /* PreviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BDAB5C2B37216000D320A7 /* PreviewModel.swift */; };
+		A8C8E95F2B320D0200FF23E9 /* NavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C8E95E2B320D0200FF23E9 /* NavBarView.swift */; };
+		A8C8E9622B320F1000FF23E9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C8E9612B320F1000FF23E9 /* HomeView.swift */; };
+		A8C8E9652B320F6700FF23E9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C8E9642B320F6700FF23E9 /* SettingsView.swift */; };
+		A8C8E9682B32179000FF23E9 /* BetterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C8E9672B32179000FF23E9 /* BetterButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A81413E52B33311A00E2C776 /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		A8239D6F2B33960600AB6035 /* TransferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferView.swift; sourceTree = "<group>"; };
+		A825D2D92B319A070095320C /* CaratBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaratBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A825D2DC2B319A070095320C /* CaratBankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaratBankApp.swift; sourceTree = "<group>"; };
+		A825D2DE2B319A070095320C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A825D2E02B319A080095320C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A825D2E32B319A080095320C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A825D2ED2B319A4B0095320C /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		A825D2F02B319EBD0095320C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A825D2F22B31A1F90095320C /* CaratBank.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CaratBank.entitlements; sourceTree = "<group>"; };
+		A825D2F32B31A2350095320C /* Authenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticator.swift; sourceTree = "<group>"; };
+		A825D2F52B31CD830095320C /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		A825D2F82B31CE7B0095320C /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		A825D2FA2B31CF870095320C /* AuthExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthExtensions.swift; sourceTree = "<group>"; };
+		A83EB0232B3364A4003C80EE /* WithdrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawView.swift; sourceTree = "<group>"; };
+		A83EB0262B33672C003C80EE /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		A83EB0282B336E51003C80EE /* HistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
+		A8455E9E2B35D0B600DD7F5E /* StatusPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusPreview.swift; sourceTree = "<group>"; };
+		A8664EF82B343B0F00D86C2F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A88750F92B34511600B500A8 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		A89BC7532B31D7E5004588B3 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		A89BC7562B31E388004588B3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A89BC7582B31EB81004588B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A89BC7592B31EC46004588B3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		A8BDAB5C2B37216000D320A7 /* PreviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewModel.swift; sourceTree = "<group>"; };
+		A8C8E95E2B320D0200FF23E9 /* NavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarView.swift; sourceTree = "<group>"; };
+		A8C8E9612B320F1000FF23E9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A8C8E9642B320F6700FF23E9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A8C8E9672B32179000FF23E9 /* BetterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A825D2D62B319A070095320C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A81413E42B33311300E2C776 /* PaymentView */ = {
+			isa = PBXGroup;
+			children = (
+				A8239D6E2B3395FB00AB6035 /* TransferView */,
+				A83EB0252B336724003C80EE /* HistoryView */,
+				A83EB0222B33649A003C80EE /* WithdrawView */,
+				A81413E52B33311A00E2C776 /* PaymentView.swift */,
+			);
+			path = PaymentView;
+			sourceTree = "<group>";
+		};
+		A8239D6E2B3395FB00AB6035 /* TransferView */ = {
+			isa = PBXGroup;
+			children = (
+				A8239D6F2B33960600AB6035 /* TransferView.swift */,
+			);
+			path = TransferView;
+			sourceTree = "<group>";
+		};
+		A825D2D02B319A070095320C = {
+			isa = PBXGroup;
+			children = (
+				A825D2DB2B319A070095320C /* CaratBank */,
+				A825D2DA2B319A070095320C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A825D2DA2B319A070095320C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A825D2D92B319A070095320C /* CaratBank.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A825D2DB2B319A070095320C /* CaratBank */ = {
+			isa = PBXGroup;
+			children = (
+				A89BC7582B31EB81004588B3 /* Info.plist */,
+				A825D2F22B31A1F90095320C /* CaratBank.entitlements */,
+				A825D2F72B31CE740095320C /* Extensions */,
+				A825D2EF2B319EA80095320C /* Components */,
+				A825D2EB2B319A3F0095320C /* Views */,
+				A825D2EA2B319A120095320C /* Other */,
+			);
+			path = CaratBank;
+			sourceTree = "<group>";
+		};
+		A825D2E22B319A080095320C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A825D2E32B319A080095320C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A825D2EA2B319A120095320C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A89BC7592B31EC46004588B3 /* Launch Screen.storyboard */,
+				A825D2DC2B319A070095320C /* CaratBankApp.swift */,
+				A825D2DE2B319A070095320C /* ContentView.swift */,
+				A825D2E02B319A080095320C /* Assets.xcassets */,
+				A825D2E22B319A080095320C /* Preview Content */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A825D2EB2B319A3F0095320C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A89BC7552B31E37E004588B3 /* MainView */,
+				A825D2EC2B319A420095320C /* AuthView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A825D2EC2B319A420095320C /* AuthView */ = {
+			isa = PBXGroup;
+			children = (
+				A825D2ED2B319A4B0095320C /* AuthView.swift */,
+				A825D2F52B31CD830095320C /* SignInView.swift */,
+				A89BC7532B31D7E5004588B3 /* SignUpView.swift */,
+			);
+			path = AuthView;
+			sourceTree = "<group>";
+		};
+		A825D2EF2B319EA80095320C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A825D2F02B319EBD0095320C /* AppDelegate.swift */,
+				A825D2F32B31A2350095320C /* Authenticator.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A825D2F72B31CE740095320C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A8C8E9662B32178800FF23E9 /* MainView */,
+				A8C8E95D2B320CF700FF23E9 /* NavBar */,
+				A8C8E9592B320CC500FF23E9 /* AuthExtensions */,
+				A8C8E9582B320CC000FF23E9 /* LoadingView */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A83EB0222B33649A003C80EE /* WithdrawView */ = {
+			isa = PBXGroup;
+			children = (
+				A83EB0232B3364A4003C80EE /* WithdrawView.swift */,
+			);
+			path = WithdrawView;
+			sourceTree = "<group>";
+		};
+		A83EB0252B336724003C80EE /* HistoryView */ = {
+			isa = PBXGroup;
+			children = (
+				A83EB0262B33672C003C80EE /* HistoryView.swift */,
+				A83EB0282B336E51003C80EE /* HistoryModel.swift */,
+			);
+			path = HistoryView;
+			sourceTree = "<group>";
+		};
+		A8455E9D2B35D01300DD7F5E /* StatusView */ = {
+			isa = PBXGroup;
+			children = (
+				A88750F92B34511600B500A8 /* StatusView.swift */,
+				A8455E9E2B35D0B600DD7F5E /* StatusPreview.swift */,
+			);
+			path = StatusView;
+			sourceTree = "<group>";
+		};
+		A8664EF72B343B0500D86C2F /* ProvileView */ = {
+			isa = PBXGroup;
+			children = (
+				A8BDAB5B2B37215400D320A7 /* PreviewModel */,
+				A8664EF82B343B0F00D86C2F /* ProfileView.swift */,
+			);
+			path = ProvileView;
+			sourceTree = "<group>";
+		};
+		A89BC7552B31E37E004588B3 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				A81413E42B33311300E2C776 /* PaymentView */,
+				A8C8E9632B320F5F00FF23E9 /* SettingsView */,
+				A8C8E9602B320F0900FF23E9 /* HomeView */,
+				A89BC7562B31E388004588B3 /* MainView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		A8BDAB5B2B37215400D320A7 /* PreviewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A8BDAB5C2B37216000D320A7 /* PreviewModel.swift */,
+			);
+			path = PreviewModel;
+			sourceTree = "<group>";
+		};
+		A8C8E9582B320CC000FF23E9 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				A825D2F82B31CE7B0095320C /* LoadingView.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		A8C8E9592B320CC500FF23E9 /* AuthExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				A825D2FA2B31CF870095320C /* AuthExtensions.swift */,
+			);
+			path = AuthExtensions;
+			sourceTree = "<group>";
+		};
+		A8C8E95D2B320CF700FF23E9 /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				A8C8E95E2B320D0200FF23E9 /* NavBarView.swift */,
+			);
+			path = NavBar;
+			sourceTree = "<group>";
+		};
+		A8C8E9602B320F0900FF23E9 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				A8664EF72B343B0500D86C2F /* ProvileView */,
+				A8C8E9612B320F1000FF23E9 /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		A8C8E9632B320F5F00FF23E9 /* SettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				A8455E9D2B35D01300DD7F5E /* StatusView */,
+				A8C8E9642B320F6700FF23E9 /* SettingsView.swift */,
+			);
+			path = SettingsView;
+			sourceTree = "<group>";
+		};
+		A8C8E9662B32178800FF23E9 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				A8C8E9672B32179000FF23E9 /* BetterButton.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A825D2D82B319A070095320C /* CaratBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A825D2E72B319A080095320C /* Build configuration list for PBXNativeTarget "CaratBank" */;
+			buildPhases = (
+				A825D2D52B319A070095320C /* Sources */,
+				A825D2D62B319A070095320C /* Frameworks */,
+				A825D2D72B319A070095320C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaratBank;
+			productName = CaratBank;
+			productReference = A825D2D92B319A070095320C /* CaratBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A825D2D12B319A070095320C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A825D2D82B319A070095320C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A825D2D42B319A070095320C /* Build configuration list for PBXProject "CaratBank" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A825D2D02B319A070095320C;
+			productRefGroup = A825D2DA2B319A070095320C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A825D2D82B319A070095320C /* CaratBank */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A825D2D72B319A070095320C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A89BC75A2B31EC46004588B3 /* Launch Screen.storyboard in Resources */,
+				A825D2E42B319A080095320C /* Preview Assets.xcassets in Resources */,
+				A825D2E12B319A080095320C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A825D2D52B319A070095320C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A825D2F62B31CD830095320C /* SignInView.swift in Sources */,
+				A8BDAB5D2B37216000D320A7 /* PreviewModel.swift in Sources */,
+				A825D2FB2B31CF870095320C /* AuthExtensions.swift in Sources */,
+				A83EB0292B336E51003C80EE /* HistoryModel.swift in Sources */,
+				A83EB0242B3364A4003C80EE /* WithdrawView.swift in Sources */,
+				A8239D702B33960600AB6035 /* TransferView.swift in Sources */,
+				A825D2F42B31A2350095320C /* Authenticator.swift in Sources */,
+				A89BC7572B31E388004588B3 /* MainView.swift in Sources */,
+				A825D2F12B319EBD0095320C /* AppDelegate.swift in Sources */,
+				A8455E9F2B35D0B600DD7F5E /* StatusPreview.swift in Sources */,
+				A825D2DF2B319A070095320C /* ContentView.swift in Sources */,
+				A825D2DD2B319A070095320C /* CaratBankApp.swift in Sources */,
+				A8C8E9682B32179000FF23E9 /* BetterButton.swift in Sources */,
+				A88750FA2B34511600B500A8 /* StatusView.swift in Sources */,
+				A8C8E95F2B320D0200FF23E9 /* NavBarView.swift in Sources */,
+				A8664EF92B343B0F00D86C2F /* ProfileView.swift in Sources */,
+				A825D2F92B31CE7B0095320C /* LoadingView.swift in Sources */,
+				A81413E62B33311A00E2C776 /* PaymentView.swift in Sources */,
+				A8C8E9622B320F1000FF23E9 /* HomeView.swift in Sources */,
+				A89BC7542B31D7E5004588B3 /* SignUpView.swift in Sources */,
+				A825D2EE2B319A4B0095320C /* AuthView.swift in Sources */,
+				A83EB0272B33672C003C80EE /* HistoryView.swift in Sources */,
+				A8C8E9652B320F6700FF23E9 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A825D2E52B319A080095320C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A825D2E62B319A080095320C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A825D2E82B319A080095320C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CaratBank/CaratBank.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CaratBank/Other/Preview Content\"";
+				DEVELOPMENT_TEAM = LPN7TY37A3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CaratBank/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkonrad02.CaratBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A825D2E92B319A080095320C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CaratBank/CaratBank.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CaratBank/Other/Preview Content\"";
+				DEVELOPMENT_TEAM = LPN7TY37A3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CaratBank/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkonrad02.CaratBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A825D2D42B319A070095320C /* Build configuration list for PBXProject "CaratBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A825D2E52B319A080095320C /* Debug */,
+				A825D2E62B319A080095320C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A825D2E72B319A080095320C /* Build configuration list for PBXNativeTarget "CaratBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A825D2E82B319A080095320C /* Debug */,
+				A825D2E92B319A080095320C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A825D2D12B319A070095320C /* Project object */;
+}

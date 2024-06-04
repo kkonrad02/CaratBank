@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CaratBank | Pulpit</title>
+        <link rel="stylesheet" href="/css/home.css">
+    </head>
+    <body>
+        <div id="nav">
+            <div class="nav_logo">
+                <img src="/imgs/fullLogo.png">
+            </div>
+            <div class="nav_buttons">
+                <a href="/auth/logout"><div class="button">Wyloguj się</div></a>
+            </div>
+        </div>
+        <div id="body">
+            <div id="account">
+                <h2>Konto Główne - {{user.name}}</h2>
+                <h1>{{account.balance}} {{account.currency}}</h1>
+            </div>
+        </div>
+    </body>
+</html>

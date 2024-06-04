@@ -1,0 +1,28 @@
+[
+  {
+    "username": "root",
+    "history": [
+      {
+        "title": "Wpłata na konto",
+        "date": "23-12-2023 16:11:5",
+        "amount": "100.00",
+        "currency": "zł"
+      }
+    ]
+  },
+  {
+    "username": "appletester",
+    "history": []
+  },
+  {
+    "username": "kkonrad02",
+    "history": [
+      {
+        "title": "Wpłata na konto",
+        "date": "04-06-2024 10:57:12",
+        "amount": "123.34",
+        "currency": "zł"
+      }
+    ]
+  }
+]

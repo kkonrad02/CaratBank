@@ -1,0 +1,12 @@
+[
+  {
+    "username": "root",
+    "balance": 200,
+    "currency": "zł"
+  },
+  {
+    "username": "kkonrad02",
+    "balance": 123.34,
+    "currency": "zł"
+  }
+]

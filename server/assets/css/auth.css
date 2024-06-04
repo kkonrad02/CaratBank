@@ -1,0 +1,105 @@
+@import url("tools/colors.css");
+
+body{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    background: var(--background);
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#modal{
+    /* width: 30vw;  */
+    /* height: 40vh; */
+    background: white;
+    text-align: center;
+    border-radius: 20px;
+    filter: var(--shadow);
+}
+
+#modal h1{
+    font-size: 60px;
+    font-weight: lighter;
+    margin: 40px;
+}
+
+#modal input[type=text], #modal input[type=password]{
+    width: 350px;
+    height: 50px;
+    background: white;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    filter: var(--shadow);
+    font-size: 15px;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+
+#modal input[type=submit]{
+    width: 370px;
+    margin: 20px 10px;
+    height: 50px;
+    background: var(--main);
+    color: white;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#signup_modal{
+    background: white;
+    border-radius: 20px;
+    filter: var(--shadow);
+    margin-left: 30px;
+}
+
+#signup_modal .content{
+    padding: 20px;
+}
+
+#signup_modal h1{
+    margin: 0;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#signup_modal h2{
+    font-size: 17px;
+    font-weight: lighter;
+    margin: 0;
+    color: gray;
+}
+
+#signup_modal img{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+#notification{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    filter: var(--shadow);
+    border-radius: 10px;
+    animation: notification 0.7s ease-in-out;
+}
+
+@keyframes notification{
+    0% {top: -100px;}
+    100% {top: 20px;}
+}
