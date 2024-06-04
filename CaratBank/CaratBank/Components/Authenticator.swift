@@ -1,7 +1,7 @@
 import SwiftUI
 
 class Authenticator{
-    @State private var ipAddress: String = "192.168.0.212"
+    @State private var ipAddress: String = "46.41.143.149"
     @State private var serverPort: String = "80"
     
     init(){}
